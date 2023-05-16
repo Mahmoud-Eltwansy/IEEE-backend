@@ -7,3 +7,8 @@ There are some features in this project , like Signing up , login and Products S
 Update the prices , Show the prices and the product name and delete them .
 Also , there are some Error Handlers.
 
+## How to run the project
+1- clone the project repo into your local
+2- create new PostgreSQL database (in this project it called users), tables (one for clients and one for products), i will put the sql commands in db.sql
+3- don't forget to update the db configuration in dbh.classes.php file
+4- Host the project on local server (XAMPP) or remote
