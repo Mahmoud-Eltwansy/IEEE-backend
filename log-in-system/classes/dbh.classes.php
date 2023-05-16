@@ -7,7 +7,7 @@ class Dbh {
             $port="5432";
             $dbname="users";
             $user="postgres";
-            $password="Twansy0142";
+            $password="";
             $dbh = new PDO("pgsql:host=$host;port=$port;dbname=$dbname;user=$user;password=$password");
             return $dbh;
             
